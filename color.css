@@ -1,0 +1,60 @@
+#box-container {
+	display: flex;
+	flex-direction: row;
+	a
+}
+
+#box-1 {
+	background-color: dodgerblue;
+	height: 200px;
+	flex-basis: 200px;
+	flex-shrink: 1;
+	}
+#box-2 {
+	background-color: orangered;
+	height: 200px;
+	flex-basis: 200px;
+	flex-shrink: 0.8;
+}
+#box-3 {
+	background-color: yellow;
+	height: 200px;
+	flex-basis: 200px;
+	margin-right: 1em;
+}
+#box-4 {
+	background-color: purple;
+	height: 200px;
+	flex-basis: 200px;
+	align-self: center;
+}
+#box-5 {
+	background-color: violet;
+	height: 200px;
+	flex-basis: 200px;
+}
+#box-6 {
+	background-color: green;
+	height: 200px;
+	flex-basis: 200px;
+	margin-left: 1em;
+}
+#box-7 {
+	background-color: red;
+	height: 200px;
+	flex-basis: 200px;
+}
+#box-8 {
+	background-color: black;
+	height: 200px;
+	flex-basis: 200px;
+}
+#box-9 {
+	max-width: 100%;
+	height: auto;
+}
+@media (max-height: 800px){ 
+    p {
+    font-size: 10px;
+      }
+  }
